@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #e2a3e2;
+    color: #ffff;
+    position: fixed;
+    width: 100%;
+    height: 7%;
+    padding: 10px;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    font-size: 1.2em;
+
+}
+
+nav p a, nav a {
+    cursor: pointer;
+    font-size: bold;
+    text-decoration: none;
+    color: #ffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif
+}
+
+nav ul li {
+    margin: 20px;
+    float: left;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+#mainTitle {
+
+    display: flex;
+    background-color: rgba(23, 21, 21, 0.931);
+    padding-top: 220px;
+    padding-bottom: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.titleRight{
+    color: #ffff;
+    line-height: 3.5em;
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titleLeft img {
+    width: 450px;
+}
+
+.meuNome{
+    font-size: 4em;
+    margin: 0.8em;
+    color: #e2a3e2;
+}
+
+.buttonsMain{
+    display:flex;
+    gap: 20px;
+    margin-top: 20px;
+    
+}
+
+.buttonGit, .buttonLinkedIn, .buttonCurriculo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3em;
+    background-color: #ffff;
+    border: 4px solid #e2a3e2;
+    border-radius: 5px;
+    color: rgba(23, 21, 21, 0.931);
+    cursor: pointer;
+    transition: all .25s ease-out;
+}
+
+.buttonGit:hover, .buttonLinkedIn:hover, .buttonCurriculo:hover{
+    background-color: #e2a3e2;
+}
+
+.buttonGit p, .buttonLinkedIn p, .buttonCurriculo p{
+    padding: 0 0.4em;
+}
+
+.buttonGit img, .buttonCurriculo img {
+    width: 2em;
+    margin: 5px;
+    padding: 0 0.2em;
+}
+
+.buttonLinkedIn img{
+    width: 2em;
+    height: 2em;
+    margin: 5px;
+    padding: 0 0.2em;
+}
+
+.buttonsMain a, .buttonLinkedin a, .experinciaConteudo a{
+    text-decoration: none;
+}
+
+#sobreMim{
+    display: flex;
+    background-color: rgba(23, 21, 21, 0.931);
+    padding-top: 150px;
+    padding-bottom: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+    justify-content: space-around;
+    color: #ffff;
+    box-sizing: border-box;
+    border-top: 3px solid #e2a3e2;
+}
+
+.imgSobre img {
+    width: 400px;
+    margin-right: 15px;
+}
+
+.textoSobre h2, #experiencia h2{
+    color:  #e2a3e2;
+    margin-bottom: 15px;
+}
+
+.textoSobre{
+    width: 50%;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+#experiencia{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(23, 21, 21, 0.931);
+    padding-top: 80px;
+    padding-bottom: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+    justify-content: space-around;
+    color: #ffff;
+    box-sizing: border-box;
+    border-top: 3px solid #e2a3e2;
+}
+
+.experinciaConteudo p{
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 1.5em;
+    width: 70%;
+}
+
+.buttonCurriculo{
+    width: 12%;
+    height: 40px;
+    font-size: 1.1em;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+
+.experinciaConteudo{
+    gap: 10%;
+    margin-top: 1em;
+    align-items: center;
+}
