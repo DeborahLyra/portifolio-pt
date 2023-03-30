@@ -29,7 +29,7 @@ nav {
 
 nav p a, nav a {
     cursor: pointer;
-    font-size: bold;
+    font-weight: bold;
     text-decoration: none;
     color: #ffff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif
@@ -139,7 +139,7 @@ nav ul li {
     margin-right: 15px;
 }
 
-.textoSobre h2, #experiencia h2{
+.textoSobre h2, #experiencia h2, #projetos h2{
     color:  #e2a3e2;
     margin-bottom: 15px;
 }
@@ -184,4 +184,78 @@ nav ul li {
     gap: 10%;
     margin-top: 1em;
     align-items: center;
+    width: 90%;
+}
+
+.listaExp ul {
+    display: flex;
+    justify-content: space-around;
+        
+    width: 50%;
+    margin: 10px auto;
+
+}
+
+.listaExp h3{
+    color: #e2a3e2;
+    text-align: center;
+    margin: 20px;
+}
+
+#projetos{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(23, 21, 21, 0.931);
+    padding-top: 80px;
+    padding-bottom: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+    justify-content: space-around;
+    color: #ffff;
+    box-sizing: border-box;
+    border-top: 3px solid #e2a3e2;
+}
+
+#projetos a img {
+    width: 350px;
+}
+
+.projetosConteudo{
+    display: flex;
+    margin-top: 30px;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    width: 60%;
+}
+
+.fotosProjetos p {
+    background-color: #e2a3e2;
+    color: rgba(23, 21, 21, 0.931);
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.emBreve{
+    border: 3px solid #e2a3e2;
+    padding: 90px;
+    display: inline;
+    color: #e2a3e2;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    background-color: #e2a3e2;
+    color: #ffff;
+    width: 100%;
+    height: 7%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }

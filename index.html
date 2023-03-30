@@ -23,18 +23,13 @@
             <p> <a href="#mainTitle"> Deborah Lyra</a> </p>
 
             <ul>
-                <a href="#mainTitle">
-                    <li>Home</li>
-                </a>
-                <a href="#sobreMim">
-                    <li>Sobre mim</li>
-                </a>
-                <a href="#experiencia">
-                    <li> Experiência</li>
-                </a>
-                <a href="#projetos">
-                    <li>Projetos</li>
-                </a>
+               <li><a href="#mainTitle">Home</a></li>
+
+                <li><a href="#sobreMim">Sobre mim</a></li>
+
+                <li><a href="#experiencia">Experiência</a></li>
+
+                <li><a href="#projetos">Projetos</a></li>
             </ul>
         </nav>
     </header>
@@ -99,7 +94,16 @@
                     diversos conhecimentos para quando eu conseguir a minha primeira oportunidade de trabalho como
                     desenvolvedora web.
                 </p>
-                <a href="./curriculo/Currículo- Deborah Lyra - DEV.pdf" download="Currículo de Deborah Lyra">
+                <div class="listaExp">
+                    <h3>Tecnolgias:</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+                </div>
+                
+                <a href="./curriculo/Currículo-DeborahLyra-DEV.pdf" download="Currículo de Deborah Lyra">
                     <div class="buttonCurriculo">
                         <img src="./img/download.png" alt="download simble" title="download">
                         <p>Currículo</p>
@@ -111,18 +115,41 @@
         <section id="projetos">
             <h2>Projetos</h2>
             
-            <a href="https://github.com/DeborahLyra/form" target="_blank"></a>><img src="./fotos-painel/formulario.jpeg" alt="projeto com formulario" title="projeto com formulario"></a>
-            <a href="https://github.com/DeborahLyra/bmi-calculator-" target="_blank"></a>><img src="./fotos-painel/calcule-imc.png" alt="projeto calcule imc" title="projeto calcule imc"></a>
-            <a href="https://github.com/DeborahLyra/simple-timer" target="_blank"><img src="./fotos-painel/timer.png" alt="projeto timer" title="projeto timer"></a>
-            <a href="" target="_blank"></a>><img src="./fotos-painel/hotel-sejadev.png" alt="projeto site hotel" title="projeto site hotel"></a>
-            <p >Em breve</p>
 
-        
+            <div class="projetosConteudo">
+
+                <div class="fotosProjetos">
+                    <a href="https://github.com/DeborahLyra/form" target="_blank"><img src="./fotos-painel/formulario.jpeg"
+                        alt="projeto com formulario" title="projeto com formulario"></a>
+                        <p>Projeto Forms - HTML e CSS</p>
+                <a href="https://github.com/DeborahLyra/bmi-calculator-" target="_blank"><img
+                        src="./fotos-painel/calcule-imc.png" alt="projeto calcule imc" title="projeto calcule imc"></a>
+                        <p>Projeto calculadora IMC - HTML, CSS e JavaScript</p>
+                </div>
+               
+
+                <div class="fotosProjetos">
+                    <a href="https://github.com/DeborahLyra/simple-timer" target="_blank"><img
+                            src="./fotos-painel/timer.png" alt="projeto timer" title="projeto timer"></a>
+                            <p>Projeto Timer - HTML, CSS e JavaScript</p>
+                    <a href="" target="_blank"><img src="./fotos-painel/hotel-sejadev.png" alt="projeto site hotel"
+                            title="projeto site hotel"></a>
+                            <p>Projeto Hotel SejaDev - HTML, CSS e JavaScript</p>
+                </div>
+
+                <p class="emBreve">Mais em breve...</p>
             </div>
+            
         </section>
     </main>
+    <footer>
+        <address>
+            Email: deborahp.lyra@gmail.com <br>
+            WhatsApp: (81)98299-5174
+        </address>
+    </footer>
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
